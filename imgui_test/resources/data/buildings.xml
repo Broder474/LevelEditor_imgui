@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<building>
+    <sample>
+        <name>sandstone_wall</name>
+        <type>image</type>
+        <sides>4</sides>
+        <left>
+            <file>sandstone_wall_left.png</file>
+        </left>
+        <right>
+            <file>sandstone_wall_right.png</file>
+        </right>
+        <bottom>
+            <file>sandstone_wall_bottom.png</file>
+        </bottom>
+        <top>
+            <file>sandstone_wall_top.png</file>
+        </top>
+    </sample>
+    <sample>
+        <name>torch</name>
+        <type>animation</type>
+        <sides>1</sides>
+        <file>torch.png</file>
+        <frame_width>16</frame_width>
+        <frame_height>40</frame_height>
+        <frames>10</frames>
+        <timeout>100</timeout>
+    </sample>
+</building>

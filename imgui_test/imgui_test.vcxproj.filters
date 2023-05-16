@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="sources\imgui">
+      <UniqueIdentifier>{55ed5e1d-789a-4a15-80e0-f6bec4869431}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\engine">
+      <UniqueIdentifier>{320543cb-06e1-429c-8517-4216bbbec121}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="imgui_test.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Libs\imgui\backends\imgui_impl_sdlrenderer.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Libs\imgui\imgui.cpp">
+      <Filter>sources\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Libs\imgui\imgui_demo.cpp">
+      <Filter>sources\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Libs\imgui\imgui_draw.cpp">
+      <Filter>sources\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Libs\imgui\imgui_widgets.cpp">
+      <Filter>sources\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Libs\imgui\backends\imgui_impl_sdl2.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Libs\imgui\imgui_tables.cpp">
+      <Filter>sources\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Libs\imgui\backends\imgui_impl_opengl3.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>sources\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Dev.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\..\Libs\imgui\backends\imgui_impl_opengl3.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Libs\imgui\backends\imgui_impl_opengl3_loader.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>sources\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Dev.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

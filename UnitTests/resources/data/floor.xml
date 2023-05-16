@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<floor>
+    <tile>
+        <name>dirt</name>
+        <type>image</type>
+        <file>dirt.png</file>
+    </tile>
+    <tile>
+        <name>sandstone</name>
+        <type>image</type>
+        <file>sandstone.png</file>
+    </tile>
+    <tile>
+        <name>water</name>
+        <type>animation</type>
+        <file>water.png</file>
+        <frames>10</frames>
+        <speed>100</speed>
+    </tile>
+</floor>
